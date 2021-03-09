@@ -18,7 +18,7 @@ app.use((_, res, next) => {
 
 app.get("/users", async (_, res) => {
 
-	res.send(await fetchAll(`select id, username, languages from users`))
+	res.send(await fetchAll(`select user_id, username, languages from users`))
 })
 
 server.listen(PORT, () => console.log('*:' + PORT))
