@@ -5,7 +5,7 @@ const pool = new Pool({
 	user: "cndovuma",
 	password: "Uozl4tnGIWlpz0U4-VQ7cV2GalY344Nd",
 	database: "cndovuma",
-	port: 5432,
+	// port: 5432,
 })
 
 const fetchAll = async (SQL, ...params) => {
